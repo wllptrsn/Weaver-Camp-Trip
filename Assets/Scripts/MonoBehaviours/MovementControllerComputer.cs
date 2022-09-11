@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MovementControllerComputer : MonoBehaviour
 {
-    public float movementSpeed = 3.0f;
+    public float movementSpeed = 10f;
+    public VectorValue startingPosition;
     Vector2 movement = new Vector2();
     //1
     Animator animator;
@@ -28,6 +29,7 @@ public class MovementControllerComputer : MonoBehaviour
         //4
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+        //transform.position = startingPosition.initialValue;
     }
     private void Update(){
         //5

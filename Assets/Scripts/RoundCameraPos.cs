@@ -19,7 +19,7 @@ If we're in the "Body" stage then we're permitted to set the Virtual Camera's po
 if (stage == CinemachineCore.Stage.Body)
 {
     Vector3 pos = state.FinalPosition;
-    /*Call the Rounding method we used (following) to round the posirion,
+    /*Call the Rounding method we used (following) to round the position,
     and then to create a new Vector with the results. This will be our new, pixel-
     bounded position.*/
     Vector3 pos2 = new Vector3(Round(pos.x),Round(pos.y),pos.z);
