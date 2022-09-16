@@ -6,6 +6,7 @@ TagManager:
   tags:
   - VCamTag
   - Bathroom
+  - UserInt
   layers:
   - Default
   - TransparentFX
