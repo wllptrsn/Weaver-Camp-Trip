@@ -12,10 +12,16 @@ public class EnterDoor : MonoBehaviour
     public GameObject status;
     public CameraFollow cameraFollow;
 
-    public int minX;
+    public Vector2 minVal;
+    public Vector2 maxVal;
+    /*public int minX;
     public int minY;
     public int maxX;
-    public int maxY;
+    public int maxY;*/
+
+    public int doorMinX;
+    public int doorMaxX;
+
     void Awake()
     {
        //Find Cameras Game Object
@@ -32,10 +38,10 @@ public class EnterDoor : MonoBehaviour
         if(other.tag == "Player"){
             person.transform.position = playerPosition;
 
-        cameraFollow.camMinX = minX;
-        cameraFollow.camMinY = minY;
-        cameraFollow.camMaxX = maxX;
-        cameraFollow.camMaxY = maxY;
+        cameraFollow.minValue = minVal;
+        cameraFollow.maxValue = maxVal;
+        cameraFollow.entranceMinX = doorMinX;
+        cameraFollow.entranceMaxX = doorMaxX;
         }
 
     }
