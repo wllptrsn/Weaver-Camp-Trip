@@ -16,7 +16,7 @@ public class StatusRelief : MonoBehaviour
    void Awake()
    {
     uiFind= GameObject.Find("UI Canvas");
-    relief = uiFind.transform.GetChild(0).GetChild(relieveState).gameObject;
+    relief = uiFind.transform.GetChild(0).GetChild(0).GetChild(relieveState).gameObject;
     //relief = status.transform.GetChild(relieveState).gameObject;
     uiFill = relief.GetComponent<UIFill>();
    }

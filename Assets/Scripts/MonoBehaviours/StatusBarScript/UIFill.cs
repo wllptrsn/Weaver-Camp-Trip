@@ -26,7 +26,7 @@ public class UIFill : MonoBehaviour
     void Awake()
     {
         uiParent= GameObject.Find("UI Canvas");
-        uiMeter = uiParent.transform.GetChild(0).GetChild(relieveState).GetChild(0).GetChild(0).gameObject;
+        uiMeter = uiParent.transform.GetChild(0).GetChild(0).GetChild(relieveState).GetChild(0).GetChild(0).gameObject;
         meterImg = uiMeter.GetComponent<Image>();
     }
 
