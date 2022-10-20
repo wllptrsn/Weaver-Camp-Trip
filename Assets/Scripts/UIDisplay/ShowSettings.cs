@@ -10,6 +10,7 @@ public class ShowSettings : MonoBehaviour
    //public MenuStates currentState;
    public GameObject regScreen;
    public GameObject settingsScreen;
+   public GameObject inventory;
 
    //When script first starts
    void Start()
@@ -21,10 +22,18 @@ public class ShowSettings : MonoBehaviour
    {
         settingsScreen.SetActive(true);
         regScreen.SetActive(false);
+        inventory.SetActive(false);
    }
    public void OnReg()
    {
         regScreen.SetActive(true);
         settingsScreen.SetActive(false);
+        inventory.SetActive(false);
+   }
+   public void OnInventory()
+   {
+        regScreen.SetActive(true);
+        settingsScreen.SetActive(false);
+        inventory.SetActive(true);
    }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 986332496104348072}
   - component: {fileID: 6386106524362123138}
   - component: {fileID: -5486860125048485786}
+  - component: {fileID: -9134261793869983204}
   m_Layer: 0
   m_Name: cooler_red
   m_TagString: Untagged
@@ -123,3 +124,26 @@ SortingGroup:
   m_SortingLayerID: -189738755
   m_SortingLayer: 8
   m_SortingOrder: 0
+--- !u!114 &-9134261793869983204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4272241290716758187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23a5260981a74e7db81687459c97c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 8593028581117954170, guid: ba692749a86ac41979623bde8e9b0110, type: 3}
+  slot1: {fileID: 0}
+  slot2: {fileID: 0}
+  slot3: {fileID: 0}
+  slot4: {fileID: 0}
+  uiFind: {fileID: 0}
+  water: {fileID: 21300000, guid: 0d68b27f9b3094cf8922474de7a2a665, type: 3}
+  beer: {fileID: 21300000, guid: c4e5030fc8c8a42d693413d300930100, type: 3}
+  chips: {fileID: 21300000, guid: 38cf01bb8dcb9424ea2c1233e8b776a7, type: 3}
+  empty: {fileID: 21300000, guid: fbf2cec91af544011ba1b68bb16bfe56, type: 3}
+  slotsFill: 00000000

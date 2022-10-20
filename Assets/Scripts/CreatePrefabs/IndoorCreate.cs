@@ -66,9 +66,9 @@ public class IndoorCreate : MonoBehaviour
     public void randomnumberCreate()
     {
         for(int i = 0; i<itemsCreate.Length-1;i++)
-                    {
-                        itemsCreate[i] = Random.Range(minRange[i],10);
-                    }
+            {
+                itemsCreate[i] = Random.Range(minRange[i],10);
+            }
     }
 
     
